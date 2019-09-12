@@ -1,0 +1,102 @@
+html,
+body{
+    margin: 0;
+    /* padding: 0; */
+    height: 100%;
+    /* overflow: hidden; */
+  
+}
+/* .pagecontainer{ */
+    /* background-image: url(./DevinImages/Screen\ Shot\ 2019-08-23\ at\ 4.35.23\ PM.png); */
+    /* background: rgb(149, 235, 235);
+    background-size: 100% 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c";
+ 
+}
+
+.instructions{
+    position: absolute;
+}
+
+.snow{ */
+    /* grid-area: c; */
+    /* position: absolute; */
+    /* border: 1px solid lightcyan;
+    border-radius: 20%;
+    height: 1200px;
+    width: 1200px; */
+    /* height: 1200px;
+    width: 1200px; */
+    /* background-color: whitesmoke; */
+    /* left: 40px; */
+    /* position:absolute; */
+    /* top:0;
+    left:0;
+    background-image: linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -o-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -moz-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(105,173,212)),
+        color-stop(0.84, rgb(23,82,145))
+    ); */
+/* } */
+
+body{margin:0;height:100%;}
+
+.instructions{
+    position: absolute;
+    cursor: pointer;
+}
+.stopitt{
+    position: absolute;
+    cursor: pointer;
+}
+
+.character{
+    position: absolute;
+    left: 45%;
+    margin-top: 600px;
+    width: 100px;
+    height: 100px;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    /* background-image: -o-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -moz-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%); */
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(105,173,212)),
+        color-stop(0.84, rgb(23,82,145))
+    );
+}
+
+
+
+
